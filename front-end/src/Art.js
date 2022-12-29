@@ -1,7 +1,10 @@
+import ArtSlider from "./components/ArtSlider.js"
+
 function Art() {
     return (
         <div className = "Art">
-            <p>hey</p>
+            <p>My Art and Design</p>
+            <ArtSlider />
         </div>
     )
 }

@@ -1,0 +1,59 @@
+.NavBar{
+    background-color: #2F2F30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavBar ul{
+    list-style-type: none;
+    padding: 0%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.NavBar a{
+    text-decoration: none;
+    color:rgb(183, 183, 183);
+}
+
+img{
+    width: 12vh;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+
+.NavBar a:hover{
+    color: white;
+}
+
+.NavBar a:active{
+    color: rgb(183, 183, 183);
+}
+
+.NavBar li{
+    display: inline;
+    font-family: 'Cormorant', serif;
+    position: relative;
+    padding: 10px 50px;
+    overflow: hidden;
+    font-size: 24px;
+    text-align: center;
+}
+
+.NavBar li::after {
+    background-color: rgb(255, 255, 255);
+    content: "";
+    width: 0;
+    height: 2px;
+    left: 20%;
+    top: 0;
+    transition: width 0.55s ease 0s;
+    position: absolute;
+  }
+
+.NavBar li:hover::after {
+    width: 60%;
+}
+
+  
