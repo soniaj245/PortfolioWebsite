@@ -4,20 +4,16 @@ function Contact() {
             <p>Contact Me Below</p>
             <form>
                 <label>
-                    Name:
-                    <input type = "text" />
+                    <input type = "text" placeholder = "Name"/>
                 </label>
                 <label>
-                    Email:
-                    <input type = "text" />
+                    <input type = "text" placeholder = "Email"/>
                 </label>
                 <label>
-                    Subject:
-                    <input type = "text" />
+                    <input type = "text" placeholder = "Subject"/>
                 </label>
                 <label>
-                    Message:
-                    <input type = "text" />
+                    <input type = "text" placeholder = "Message"/>
                 </label>
             </form>
         </div>
